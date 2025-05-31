@@ -11,10 +11,30 @@ body{
     flex-direction: column;
     background: #1F2937;
     gap: 30px;
-    padding: 0px 150px 100px 150px;
+    padding: 0px 235px 100px 235px;
     
 }
-
+.first-left{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: flex-start;
+    align-items: flex-start;
+    height:fit-content;
+}
+.first-right{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+.first-img{
+    padding: 0;
+    margin:0;
+    width: 370px;
+    height: 179px;
+}
 .footer{
     background: #1F2937;
 }
@@ -34,16 +54,23 @@ body{
     display: flex;
     color: #E5E7EB;
     padding: 8px;
+    
 }
 
 .first-header{
     color: #F9FAF8;
+    width:300px;
+    
    
 }
-
+h1{
+   
+    margin: 0;
+}
 .header-subtext{
     color: #E5E7EB;
     text-align: left;
+    width: 360px;
 }
 
 button{
@@ -56,16 +83,16 @@ button{
 
 .content{
     display: flex;
-    gap: 23px;
+    gap: 35px;
 }
 
 .second-page{
-    padding: 30px 200px 100px 200px;;
+    padding: 30px 250px 100px 250px;;
     display: flex;
     flex-direction: column;
-    gap: 25px;
+    gap: 30px;
     background: white;
-
+    
 }
 
 .second-header{
@@ -78,12 +105,14 @@ button{
 .img-container{
     display: flex;
     text-align: center;
-   
+    gap: 35px;
+    justify-content: center;
+    width: fit-content;
+    align-self: center;
+    
 }
 .img{
-    
     max-width: 100;
-    
     
 }
 .info{
@@ -91,6 +120,11 @@ button{
     border-radius: 14px;
     border-color: #118df3;
     border-style: solid;
+}
+.text{
+    text-align: justify;
+    text-justify: inter-word;
+    width: 100px;
 }
 .third-page{
     display: flex;
@@ -104,14 +138,14 @@ button{
 .quote{
     color: #1F2937;
     font-style: light italic;
-    text-align: justify;
     font-size: 27px;
-    text-justify: inter-word;
+    width: 560px;
     
 }
 .author{
     align-self: flex-end;
     font-weight: bold;
+    padding-right: 108px
 }
 
 .fourth-page{
@@ -119,14 +153,14 @@ button{
     background: white;
     justify-content: center;
     align-items: center;
-    padding: 50px 110px;
+    padding: 50px 125px;
 }
 .blue-box{
     display: flex;
     background: #3882F6;
-    padding: 25px 75px;
+    padding: 29px 75px;
     border-radius: 8px;
-    gap: 80px;
+    gap: 116px;
 }
 .blue-left{
     display: flex;
@@ -166,6 +200,7 @@ ul{
     display: flex;
     list-style-type: none;
     gap: 14px;
+    flex-shrink: 0;
     
 }
 a{
